@@ -4,6 +4,7 @@
 - class: System.Data.SqlClient.SqlBulkCopy
 
 ### WCF demo
-- 构建服务
-- 构建宿主
-- 启用MEX
+- [X] 构建服务
+- [X] 构建宿主
+- [X] 启用MEX
+- [ ] 构建客户端
