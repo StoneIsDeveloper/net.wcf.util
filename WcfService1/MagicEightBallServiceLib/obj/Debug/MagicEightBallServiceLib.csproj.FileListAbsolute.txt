@@ -1,0 +1,5 @@
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\bin\Debug\MagicEightBallServiceLib.dll
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\bin\Debug\MagicEightBallServiceLib.pdb
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.csproj.CoreCompileInputs.cache
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.dll
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Debug\MagicEightBallServiceLib.pdb

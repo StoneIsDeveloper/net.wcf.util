@@ -1,0 +1,6 @@
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\bin\Release\MagicEightBallServiceLib.dll
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\bin\Release\MagicEightBallServiceLib.pdb
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Release\MagicEightBallServiceLib.csprojResolveAssemblyReference.cache
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Release\MagicEightBallServiceLib.csproj.CoreCompileInputs.cache
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Release\MagicEightBallServiceLib.dll
+F:\2018Projects\WcfService1\MagicEightBallServiceLib\obj\Release\MagicEightBallServiceLib.pdb

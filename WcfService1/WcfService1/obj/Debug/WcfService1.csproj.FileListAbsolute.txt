@@ -1,0 +1,7 @@
+F:\2018Projects\WcfService1\WcfService1\bin\WcfService1.dll.config
+F:\2018Projects\WcfService1\WcfService1\bin\WcfService1.dll
+F:\2018Projects\WcfService1\WcfService1\bin\WcfService1.pdb
+F:\2018Projects\WcfService1\WcfService1\obj\Debug\WcfService1.csproj.CoreCompileInputs.cache
+F:\2018Projects\WcfService1\WcfService1\obj\Debug\WcfService1.dll
+F:\2018Projects\WcfService1\WcfService1\obj\Debug\WcfService1.pdb
+F:\2018Projects\WcfService1\WcfService1\obj\Debug\WcfService1.csprojResolveAssemblyReference.cache

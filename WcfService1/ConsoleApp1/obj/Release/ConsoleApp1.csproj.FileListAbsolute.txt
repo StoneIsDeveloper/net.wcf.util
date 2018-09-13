@@ -1,0 +1,9 @@
+F:\2018Projects\WcfService1\ConsoleApp1\bin\Release\ConsoleApp1.exe.config
+F:\2018Projects\WcfService1\ConsoleApp1\bin\Release\ConsoleApp1.exe
+F:\2018Projects\WcfService1\ConsoleApp1\bin\Release\ConsoleApp1.pdb
+F:\2018Projects\WcfService1\ConsoleApp1\bin\Release\MagicEightBallServiceLib.dll
+F:\2018Projects\WcfService1\ConsoleApp1\bin\Release\MagicEightBallServiceLib.pdb
+F:\2018Projects\WcfService1\ConsoleApp1\obj\Release\ConsoleApp1.csprojResolveAssemblyReference.cache
+F:\2018Projects\WcfService1\ConsoleApp1\obj\Release\ConsoleApp1.csproj.CoreCompileInputs.cache
+F:\2018Projects\WcfService1\ConsoleApp1\obj\Release\ConsoleApp1.exe
+F:\2018Projects\WcfService1\ConsoleApp1\obj\Release\ConsoleApp1.pdb
