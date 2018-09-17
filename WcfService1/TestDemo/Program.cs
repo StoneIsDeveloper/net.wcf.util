@@ -18,10 +18,61 @@ namespace TestDemo
             // Demo.Observe();    
 
             // DatabaseDemo.RunProcodureTran();
-            DatabaseDemo.RunTran();
+            // DatabaseDemo.RunTran();
+            var s1 = "ABCD";
+            var s2 = "BDCA";
+            // Console.WriteLine( isRotation(s1,s2));
+
+            Spilt();
 
             Console.ReadKey();
         }
+
+        public static bool isRotation(string s1,string s2)
+        {
+            var result = false;
+            if(s1.Length == s2.Length && (s1+s1).IndexOf(s2)>-1 )
+            {
+                result = true;
+            }
+            return result;
+        }
+
+        public static void Spilt()
+        {
+            Dictionary<int, char> map = new Dictionary<int, char>();
+            int index = 1;
+            for (char i = 'A'; i <= 'Z'; i++)
+            {
+                Console.WriteLine("{0}_{1}", index, i);
+                map.Add(index, i);
+                index++;              
+            }
+            int member = 1234;
+            var str = member.ToString();
+            var chars = str.ToCharArray().ToList();
+         
+            //第一种组合，每个数字单独成立
+            List<int> line1 = new List<int>();
+            StringBuilder builder1 = new StringBuilder();
+            chars.ForEach(o =>
+            {
+                var item =Convert.ToInt32( o.ToString());
+                line1.Add(item);
+            });
+
+            line1.ForEach(key =>
+            {
+                builder1.Append(map[key]);
+            });
+
+
+            Console.WriteLine(builder1);
+        }
+
+
+
+
     }
     public class SortedPeopleByAge : IComparer<Person>
     {
