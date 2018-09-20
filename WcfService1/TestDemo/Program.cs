@@ -44,30 +44,68 @@ namespace TestDemo
             int index = 1;
             for (char i = 'A'; i <= 'Z'; i++)
             {
-                Console.WriteLine("{0}_{1}", index, i);
+               // Console.WriteLine("{0}_{1}", index, i);
                 map.Add(index, i);
                 index++;              
             }
-            int member = 1234;
+            int member = 121321;
             var str = member.ToString();
             var chars = str.ToCharArray().ToList();
-         
-            //第一种组合，每个数字单独成立
-            List<int> line1 = new List<int>();
+
+            var length = chars.Count;
+            var maxCp = length / 2;
+
+            List<string> results = new List<string>();
+            List<int> numbers = new List<int>();
             StringBuilder builder1 = new StringBuilder();
             chars.ForEach(o =>
             {
-                var item =Convert.ToInt32( o.ToString());
-                line1.Add(item);
+                var item = Convert.ToInt32(o.ToString());
+                numbers.Add(item);
             });
-
-            line1.ForEach(key =>
+            //1.全部是一位数
+            numbers.ForEach(o =>
             {
-                builder1.Append(map[key]);
+                builder1.Append(map[o]);
             });
 
+            Console.WriteLine("全部是一位数："+ member +" _ "+ builder1);
+            Dictionary<int, int> cpSource = new Dictionary<int, int>();
+            List<int> cpIndex = new List<int>();
+            var totalNumbers = numbers.Count;
+            //有效的两位数 <= 26
+            for (var i=0;i< totalNumbers-1; i++)
+            {
+                var cpNumber = numbers[i] * 10 + numbers[i + 1];
+                if(cpNumber <= map.Count)
+                {
+                    cpSource.Add(i, cpNumber);
+                    cpIndex.Add(i);
+                }
+            }
+            Console.WriteLine("有效的两位数：" + cpSource.Count);
+            cpSource.ToList().ForEach(o =>
+            {
 
-            Console.WriteLine(builder1);
+                Console.WriteLine("idnex:" + (o.Key+1 )+ " value:" + o.Value);
+            });
+
+            // 同时出现两位数的最多个数
+            var comCp = cpIndex.Count >= 1 ? 1 : 0;
+            var keys = cpSource.Keys.ToList();
+            if (cpIndex.Count >1 )
+            {
+                for (var i = 0; i < cpIndex.Count - 1; i++)
+                {
+                    if(keys[i+1] - keys[i] > 1 )
+                    {
+                        comCp++;
+                    }
+                }
+            }
+
+            Console.WriteLine("comCp:"+ comCp);
+           
         }
 
 
